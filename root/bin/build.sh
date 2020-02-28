@@ -1,0 +1,3 @@
+#!/bin/sh
+env
+s2i build ${DRONE_WORKSPACE_BASE} ${PLUGIN_BUILDER} ${PLUGIN_TARGET}
